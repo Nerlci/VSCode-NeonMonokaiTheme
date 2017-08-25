@@ -1,0 +1,22 @@
+{
+    "name": "neon-monokai",
+    "displayName": "Neon Monokai",
+    "description": "A simple fork for Flatland Monokai",
+    "version": "0.0.1",
+    "publisher": "Nerlci",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Neon Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NeonMonokai-color-theme.json"
+            }
+        ]
+    }
+}
